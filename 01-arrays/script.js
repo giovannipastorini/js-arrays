@@ -23,7 +23,24 @@ teachers[4]="Patrick";
 console.log("Quinto insegnante aggiornato: "+teachers[4]);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+
+//salvo l'ultimo elemento dell'array
+/* 
+const lastTeacher =teachers[teachers.length-1] ;
+console.log("Insegnate rimosso dalla lista: "+lastTeacher); 
+*/
+
+//rimuovo l'ultimo elemento dell'array e lo salvo nella variabile
+const lastTeacher = teachers.pop();
+
+console.log(teachers);
+
+console.log("Insegnate rimosso dalla lista: "+lastTeacher);
+
+
+
+
+
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
