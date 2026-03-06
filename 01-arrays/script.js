@@ -73,4 +73,11 @@ console.log(lewisIndex);
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+
+let isTeachersEmpty = false;
+
+if (teachers.length === 0){
+  isTeachersEmpty= true;
+}
+
+console.log(isTeachersEmpty);
