@@ -39,6 +39,12 @@ console.log(longNames);
 
 // 3. Rimuovi 'Ed' dall'array teachers
 
+//uso il metodo splice: il primo parametro indica l'indice dell'elemento che si vuole rimuovere; 
+// il secondo parametro specifica il numero di elementi da rimuovere a partire dalla posizione specificata dal primo parametro
+teachers.splice(1,1);
+console.log(teachers);
+
+
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
 const isFabioPresent = null;
