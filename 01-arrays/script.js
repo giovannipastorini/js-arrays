@@ -16,7 +16,6 @@ console.log("Questo è il quarto insegnante della lista: "+fourthTeacher);
 
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-console.log("Quinto insegnante: "+teachers[4]);
 
 teachers[4]="Patrick";
 
@@ -47,6 +46,9 @@ console.log("Insegnate rimosso dalla lista: "+firstTeacher);
 
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push("Vanessa");
+console.log(teachers);
+
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
